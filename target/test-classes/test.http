@@ -1,0 +1,18 @@
+### GET ALL BOOKINGS
+GET http://localhost:8080/booking
+
+
+### POST A LIST OF BOOKINGS
+POST http://localhost:8080/booking
+Content-Type: application/json
+
+[
+  {
+    "clientName": "Anah",
+    "clientPhone": "0321335732",
+    "clientEmail": "anah@gmail.com",
+    "roomNumber": 8,
+    "roomDescription": "Double Room",
+    "date": "2025-03-13"
+  }
+]
